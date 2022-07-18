@@ -6,6 +6,14 @@ CellBRF is a fast unsupervised gene selection algorithm based on balanced random
 ![alt text](https://github.com/xuyp-csu/CellBRF/blob/main/Fig1.workflow.png?raw=True)
 
 # Usage
+## Requirements:
+Python --- 3.6.8
+pytorch -- 1.5.1+cu101
+Scanpy --- 1.0.4
+Nvidia Tesla P100
+
+## Files:
+CF.py -- implementation of CellBRF algorithm
 
 ```
 
