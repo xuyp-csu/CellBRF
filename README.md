@@ -36,3 +36,15 @@ CF.py -- implementation of CellBRF algorithm
 ```
 
 ```
+
+# Contact
+If any questions, please do not hesitate to contact us at: 
+
+Hongdong Li, hongdong@csu.edu.cn
+
+Jianxin Wang, jxwang@csu.edu.cn
+
+# How to cite?
+If you use this tool, please cite the following work.
+
+Hongdong Li, Yunpei Xu, Cuixiang Lin, Fangxiang Wu and Jianxin Wang, CellBRF: A Balanced Random Forest-based unsupervised feature selection algorithm for single-cell RNA-seq clustering, 2022, submitted  
