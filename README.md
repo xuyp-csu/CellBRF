@@ -33,20 +33,21 @@ corr_threshold : Linear correlation threshold to use when removing redundant gen
 ## Files:
 CF.py -- implementation of CellBRF algorithm
 
+## Demo:
 ```
 import h5py
 import numpy as np
 import CF
 import os
-import pandas as pd
-from collections import Counter
-print(dataName)
+
+dir = './h5data'
+dataName = 'Cao'
 data_mat = h5py.File(os.path.join(dir, dataName + '.h5'))
 X = np.array(data_mat['X'])
 y = np.array(data_mat['Y'])
 data_mat.close()
 n_clusters = len(np.unique(y))
-predlab = CF.CellBRF(data=X, dataName=dataName, n_clusters=n_clusters, save_path='./')
+X_selected = CF.CellBRF(data=X, dataName=dataName, n_clusters=n_clusters, save_path='./')
 ```
 
 # Contact
