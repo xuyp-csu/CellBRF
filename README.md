@@ -20,15 +20,40 @@ imblearn --- 0.0
 
 ## Arguments:
 
-data : Gene expression data matrix, gene in columns and samples in rows.
+data : `pandas.DataFrame` or `2-D numpy.array`, optional
+        Gene expression data matrix, gene in columns and samples in rows.
 
-n_clusters : Number of the cell types in the scRNA-seq dataset.
+dataName : string
+    Name of scRNA-seq dataset.
 
-balanced : Whether the data needs to be balanced. (default: True)
+geneName : list -> string
+    The length must be the same as the number of columns in the data matrix.
+    Names of all genes in the scRNA-seq dataset.
 
-RR : Whether redundant features need to be removed. (default: True)
+n_clusters : integer
+    Number of the cell types in the scRNA-seq dataset.
 
-corr_threshold : Linear correlation threshold to use when removing redundant genes. (default: 0.8)
+normalization : boolean
+    Whether the data needs to be normalized. (default: True)
+
+label_predict : list -> integer, optional
+    The length must be the same as the number of rows in the data matrix.
+    Predicted labels per cell. (default: None)
+
+seed : integer
+    Random seed.
+
+RR : boolean
+    Whether redundant features need to be removed. (default: True)
+
+corr_threshold : integer
+    Linear correlation threshold to use when removing redundant genes. (default: 0.8)
+
+save_full : boolean
+    Whether the full result needs to be saved. (default: True)
+
+save_path : string
+    Path to save results.
 
 ## Files:
 CF.py -- implementation of CellBRF algorithm
