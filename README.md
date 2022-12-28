@@ -1,7 +1,7 @@
 # CellBRF
 ## Description
-CellBRF: An unsupervised feature selection method for single-cell RNA-seq clustering using cell balance and random forest
-CellBRF is a fast unsupervised gene selection algorithm based on balanced random forest. Importantly, CellBRF provide a two-sides balancing strategy that can be used to select gene features in scRNA-seq data with imbalanced cell types. In addition, CellBRF used a more robust ensemble learning model on balanced data to assess the importance of each gene. Finally, CellBRF combine the linear correlation of gene features to propose an efficient automatic redundant feature removal method.
+CellBRF: A feature selection method for single-cell RNA-seq clustering using cell balance and random forest
+CellBRF is a feature selection method that considers genes’ relevance to cell types for single-cell clustering. The key idea is to identify genes with more clustering contributions through random forests guided by predicted cell labels. Moreover, it proposes a class balancing strategy to mitigate the impact of skewed cell types distributions on feature importance measurement.
 
 ![alt text](https://github.com/xuyp-csu/CellBRF/blob/main/workflow.png)
 
@@ -53,11 +53,11 @@ X_selected = CF.CellBRF(data=X, dataName=dataName, n_clusters=n_clusters, save_p
 # Contact
 If any questions, please do not hesitate to contact us at: 
 
-Hongdong Li, hongdong@csu.edu.cn
+Yunpei Xu, xu_yunpei@csu.edu.cn
 
 Jianxin Wang, jxwang@csu.edu.cn
 
 # How to cite?
 If you use this tool, please cite the following work.
 
-Yunpei Xu, Hongdong Li, Cuixiang Lin, Ruiqing Zheng, Fangxiang Wu and Jianxin Wang, CellBRF: An unsupervised feature selection method for single-cell RNA-seq clustering using cell balance and random forest, 2022, submitted  
+Yunpei Xu, Hongdong Li, Cuixiang Lin, Ruiqing Zheng, Fangxiang Wu and Jianxin Wang, CellBRF: A feature selection method for single-cell RNA-seq clustering using cell balance and random forest, 2022, submitted  
