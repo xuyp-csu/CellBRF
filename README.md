@@ -1,6 +1,7 @@
 # CellBRF
 ## Description
 CellBRF: A feature selection method for single-cell RNA-seq clustering using cell balance and random forest
+
 CellBRF is a feature selection method that considers genes’ relevance to cell types for single-cell clustering. The key idea is to identify genes with more clustering contributions through random forests guided by predicted cell labels. Moreover, it proposes a class balancing strategy to mitigate the impact of skewed cell types distributions on feature importance measurement.
 
 ![alt text](https://github.com/xuyp-csu/CellBRF/blob/main/workflow.png)
