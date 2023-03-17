@@ -44,9 +44,23 @@ save_full : Whether the full result needs to be saved. (default: True)
 save_path : Path to save results.
 
 ## Files:
+h5data -- a example scRNAseq data Han
+
 CF.py -- implementation of CellBRF algorithm
 
+Chu_DEgenes.Rdata -- genes with different possible expression paths in time course data Chu1
+
 Feats_demo.py -- implementation of Feats algorithm
+
+PanglaoDB_markers_27_Mar_2020.tsv -- cell-type makers from the PanglaoDB database
+
+cell neighborhoods reconstruction.py -- The python code used to calculate k-nearest neighbor consistency and silhouette coefficient
+
+evalcluster.R -- implementation of NMI and ARI
+
+test_code.R -- R code for all other analyzes and visualizations
+
+workflow.png -- CellBRF workflow
 
 ## Demo:
 ```
