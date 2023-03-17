@@ -45,6 +45,7 @@ save_path : Path to save results.
 
 ## Files:
 CF.py -- implementation of CellBRF algorithm
+Feats_demo.py -- implementation of Feats algorithm
 
 ## Demo:
 ```
