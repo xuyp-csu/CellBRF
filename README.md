@@ -89,4 +89,4 @@ Jianxin Wang, jxwang@csu.edu.cn
 # How to cite?
 If you use this tool, please cite the following work.
 
-Yunpei Xu, Hongdong Li, Cuixiang Lin, Ruiqing Zheng, Fangxiang Wu and Jianxin Wang, CellBRF: A feature selection method for single-cell RNA-seq clustering using cell balance and random forest, 2022, submitted  
+Yunpei Xu, Hongdong Li, Cuixiang Lin, Ruiqing Zheng, Yaohang Li, Jinhui Xu and Jianxin Wang, CellBRF: A feature selection method for single-cell RNA-seq clustering using cell balance and random forest, 2023, submitted  
